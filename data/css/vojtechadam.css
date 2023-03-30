@@ -6,13 +6,48 @@ body, html {
     margin: 0;
     padding: 0;
 }
-.rozhovor h1 {
+.rozhovor {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 4rem);
+    justify-content: space-between;
+    margin: 2rem;
+}
+.rozhovor .images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.rozhovor .images img {
+    max-width: 65%;
+    margin-right: 2rem;
+}
+.rozhovor .images img:not(:last-child) {
+    margin-bottom: 2rem;
+}
+.rozhovor .title {
+    width: 100%;
+}
+.rozhovor .text .title h1 {
     font-size: 2.5em;
     font-weight: 700;
 }
-.rozhovor .question {
+.rozhovor .text .title p {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.rozhovor .text .questions .question {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     margin: 1em 0;
+}
+.rozhovor .text .questions .question h2 {
+    font-weight: 700;
+    margin: 0;
+}
+.rozhovor .text .questions .question p {
+    font-weight: 500;
+    margin: 0;
 }
