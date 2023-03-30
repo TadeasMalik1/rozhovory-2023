@@ -17,44 +17,65 @@
     justify-content: center;
     align-items: center;
 }
-.fs {
-    z-index: 7;
+.page1 {
+    z-index: 10;
     background: url('../img/vojtechadam1.jpg');
     background-size: cover;
     background-position: 0% 80%;
     background-repeat: no-repeat;
 }
-.sc {
-    z-index: 6;
+.page2 {
+    z-index: 9;
     background: url("../img/vojtechadam2.jpg");
     background-size: cover;
     background-position: 0% 70%;
     background-repeat: no-repeat;
 }
-.th {
-    z-index: 5;
+.page3 {
+    z-index: 8;
     background: url("../img/vojtechadam3.jpg");
     background-size: cover;
     background-position: 0% 30%;
     background-repeat: no-repeat;
 }
-.fr {
-    z-index: 4;
+.page4 {
+    z-index: 7;
     background: url("../img/vojtechadam4.jpg");
     background-size: cover;
     background-position: 0% 70%;
     background-repeat: no-repeat;
 }
-.ft {
-    z-index: 3;
+.page5 {
+    z-index: 6;
     background: url("../img/vojtechadam5.jpg");
     background-size: cover;
     background-position: 0% 70%;
     background-repeat: no-repeat;
 }
-.sx {
-    z-index: 2;
+.page6 {
+    z-index: 5;
     background: url("../img/vojtechadam6.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page7 {
+    z-index: 4;
+    background: url("../img/vojtechadam7.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page8 {
+    z-index: 3;
+    background: url("../img/vojtechadam8.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page9 {
+    z-index: 2;
+    background: url("../img/vojtechadam9.jpg");
     background-size: cover;
     background-position: 0% 70%;
     background-repeat: no-repeat;
@@ -80,4 +101,13 @@
     font-size: 1.5em;
     font-weight: 500;
     margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .page .content h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    .page .content p {
+        font-size: 1.2em;
+    }
 }
