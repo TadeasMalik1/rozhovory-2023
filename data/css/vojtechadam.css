@@ -1,0 +1,6 @@
+p span {
+    margin-left: 1rem;
+}
+p:has(>span) p {
+    color: red
+}
