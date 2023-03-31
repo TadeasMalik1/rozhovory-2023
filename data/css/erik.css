@@ -1,5 +1,53 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    background: black;
+    margin: 0;
+    color: whitesmoke;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+}
+
+.img1 {
+    background: url('../img/Obrázek2.jpg');
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url('../img/Obrázek1.jpg');
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+
+.content.title {
+    align-items: center;
+}
+
+.content.title h1{
+    display: inline-block;
+}
+
+.content h1 {
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.content p {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 2rem;
 }
