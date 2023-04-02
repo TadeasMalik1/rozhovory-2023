@@ -1,0 +1,40 @@
+* {
+    font-family: Ebrima;
+    background: #cbc6cf;
+}
+
+.nazev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    border: #A69CAC 5px solid;
+}
+
+.interview p {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #A69CAC;
+    text-align: center;
+}
+
+.interview,
+.questions {
+    margin-left: 23rem;
+    width: 50%;
+}
+
+.questions p {
+    padding-bottom: 10px;
+    border-bottom: #A69CAC 5px solid;
+}
+
+.questions h2 {
+    padding-top: 10px;
+}
+
+.nazev h1 {
+
+}
