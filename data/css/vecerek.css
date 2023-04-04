@@ -1,0 +1,87 @@
+
+
+/* Style for the body element */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+}
+
+/* Style for the interview container */
+.rozhovor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the interview title */
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Style for the introduction paragraph */
+.introduction {
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Style for the question paragraph */
+.question {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for the answer paragraph */
+.answer {
+    margin-left: 20px;
+    color: #666;
+}
+
+/* Style for the paragraph container */
+.paragraph {
+    margin-bottom: 30px;
+    border-left: 3px solid #ccc;
+    padding-left: 10px;
+}
+
+/* Style for the ending paragraph */
+#ending {
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+}
+
+.pictures {
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.pictures img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+}
+
+.pictures h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+

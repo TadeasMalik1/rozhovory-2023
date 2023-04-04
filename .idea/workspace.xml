@@ -5,13 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7753f44a-c43b-4226-8fe2-9833a968c6eb" name="Changes" comment="edit pm">
+      <change afterPath="$PROJECT_DIR$/data/css/vecerek.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Adresář učastníků (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Adresář účastníků.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Deník - 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Deník - 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Deník - 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Deník - 4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Deník - 5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Ministerstvo (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Ministerstvo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Povolení a rupie z rubu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Povolení a rupie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Závěrečná zpráva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Útržek - velký.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/img/vecerek/Útržek z novin - člun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/vecerek.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/milan.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/milan.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,20 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/simon/Desktop/Škola/3.D/PVA/WebstormProjects/rozhovory-2023/data/img/vecerek",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\simon\Desktop\Škola\3.D\PVA\WebstormProjects\rozhovory-2023\data\img\vecerek" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\simon\Desktop\Škola\3.D\PVA\WebstormProjects\rozhovory-2023\data\img\vecerek" />
       <recent name="C:\Users\martinek.p\WebstormProjects\pva\rozhovory-2023\data" />
     </key>
   </component>
@@ -52,6 +82,9 @@
       <workItem from="1680528245437" duration="896000" />
       <workItem from="1680588444974" duration="2501000" />
       <workItem from="1680592373145" duration="1903000" />
+      <workItem from="1680595005859" duration="4481000" />
+      <workItem from="1680607964310" duration="2445000" />
+      <workItem from="1680629584577" duration="3041000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1680528393860</created>
