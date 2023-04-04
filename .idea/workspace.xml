@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7753f44a-c43b-4226-8fe2-9833a968c6eb" name="Changes" comment=".com" />
+    <list default="true" id="7753f44a-c43b-4226-8fe2-9833a968c6eb" name="Changes" comment=".com">
+      <change beforePath="$PROJECT_DIR$/d20197.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/d20197.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +36,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\martinek.p\WebstormProjects\pva\rozhovory-2023\data" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +51,7 @@
       <updated>1680528243924</updated>
       <workItem from="1680528245437" duration="896000" />
       <workItem from="1680588444974" duration="2501000" />
+      <workItem from="1680592373145" duration="425000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1680528393860</created>
@@ -83,7 +92,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
