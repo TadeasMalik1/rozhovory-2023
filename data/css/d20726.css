@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    margin-left:10px;
+    margin-right: 10px;
+    background: #333333 url("../IMG/jc-gellidon-dBGnp5jPREA-unsplash.jpg")no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    background: #333;
+}
+
+.p1{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 17px;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+.maint{
+    background: white;
+    opacity: 50%;
+    color: black;
+    font-size: 17px;
+}
