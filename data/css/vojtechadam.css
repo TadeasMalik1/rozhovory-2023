@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.page {
+    box-sizing: border-box;
+    height: 100vh;
+    position: sticky;
+    bottom: 0;
+    box-shadow: 0 10px 15px #00000060;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1 {
+    z-index: 10;
+    background: url('../img/vojtechadam1.jpg');
+    background-size: cover;
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+}
+.page2 {
+    z-index: 9;
+    background: url("../img/vojtechadam2.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page3 {
+    z-index: 8;
+    background: url("../img/vojtechadam3.jpg");
+    background-size: cover;
+    background-position: 0% 30%;
+    background-repeat: no-repeat;
+}
+.page4 {
+    z-index: 7;
+    background: url("../img/vojtechadam4.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page5 {
+    z-index: 6;
+    background: url("../img/vojtechadam5.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page6 {
+    z-index: 5;
+    background: url("../img/vojtechadam6.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page7 {
+    z-index: 4;
+    background: url("../img/vojtechadam7.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page8 {
+    z-index: 3;
+    background: url("../img/vojtechadam8.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page9 {
+    z-index: 2;
+    background: url("../img/vojtechadam9.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
+.page .content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+}
+.page .content.title {
+    align-items: center;
+}
+.page .content h1 {
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+.page .content p {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .page .content h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    .page .content p {
+        font-size: 1.2em;
+    }
+}
