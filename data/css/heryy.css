@@ -5,11 +5,48 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Delicious Handrawn', cursive;
+    scroll-behavior: smooth;
 }
+
+
 
 .rozhovor {
 
 }
+
+.sekce {
+    margin: 15vh 25vw 0 25vw;
+    padding: 2vh 0 2vh 0;
+}
+
+#otazky {
+    margin: 0 25vw 0 25vw;
+    padding: 2vh 0 2vh 0;
+}
+
+#uvod {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nadpis {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.odpoved {
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
 
 body {
     background-color: #DFD5A5;
