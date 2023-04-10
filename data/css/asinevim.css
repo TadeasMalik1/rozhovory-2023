@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, serif;
+    background-color: #CEABB1;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+h1, h2 {
+    color: #9F4A54;
+}
+
+#intro {
+    border: 5px solid #9F4A54;
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+#intro p {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.question {
+    margin: 30px 180px;
+}
