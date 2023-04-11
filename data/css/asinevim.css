@@ -29,3 +29,14 @@ h1, h2 {
 .question {
     margin: 30px 180px;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 10px;
+    height: 450px;
+    border: 5px solid #9F4A54;
+    border-radius: 10px;
+}
