@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+.nadpis {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.popis {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+}
+
+.otazky {
+    margin-top: 2rem;
+}
+
+.tema {
+    margin-bottom: 1.5rem;
+}
+
+.otazka {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.odpoved {
+    margin-top: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .rozhovor {
+        padding: 0.5rem;
+    }
+
+    .popis {
+        font-size: 1rem;
+    }
+
+    .otazka {
+        font-size: 1rem;
+    }
+}
