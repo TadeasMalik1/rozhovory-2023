@@ -41,6 +41,15 @@ body{
 #interview p{
     padding-bottom: 10px;
 }
+img{
+    height: 250px;
+    width: auto;
+    padding-right: 1rem;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (max-width: 600px) {
     .uvod {
         height: 100px;
