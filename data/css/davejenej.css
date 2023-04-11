@@ -31,3 +31,13 @@ h3 {
     background-color: orange;
     font-size: medium;
 }
+
+@media screen and (max-width: 768px) {
+    .rozhovor {
+        padding: 20px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
