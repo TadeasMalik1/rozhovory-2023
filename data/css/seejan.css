@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 8rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.uvod {
+    display: flex;
+}
+
+.uvod img {
+    max-height: calc(100vh - 16px);
+}
+
+.uvod p {
+    font-size: 1.5rem;
+    padding: 5rem;
+}
+
+.otazky {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.otazky p {
+    font-size: 1.5rem;
+}

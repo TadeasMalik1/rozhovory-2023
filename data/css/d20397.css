@@ -1,26 +1,25 @@
-/* Nastavení velikosti textu a řádkování */
 body {
     font-size: 14px;
     line-height: 1.5;
 }
 
-/* Nastavení stylu záhlaví */
-h1, h2, h3 {
+
+h1, h2, h3, p {
     font-family: Arial, sans-serif;
     font-weight: bold;
     color: #333;
 }
+
 h1 {
     text-align: center;
 }
 
-/* Nastavení stylu otázek */
+
 h2 {
     margin-top: 40px;
 }
 
 
-/* Nastavení stylu obrázku */
 img {
     max-width: 100%;
     height: auto;
@@ -29,17 +28,42 @@ img {
     border-radius: 40px;
 }
 
-/* Nastavení stylu pro datum */
+
 p:first-of-type {
     font-style: italic;
     margin-bottom: 20px;
 }
 
-/* Nastavení stylu pro celkový vzhled stránky */
 body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f5f5f5;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    img {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+

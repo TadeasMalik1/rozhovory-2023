@@ -35,3 +35,21 @@ h2 {
 .answers {
     padding-bottom: 2rem;
 }
+
+.img {
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    img{
+        width:25% ;
+        height:25%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    img{
+        width:100% ;
+        height:100%;
+    }
+}
