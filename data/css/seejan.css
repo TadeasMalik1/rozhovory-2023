@@ -35,3 +35,19 @@ h2 {
 .otazky p {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 960px) {
+    .uvod {
+        flex-direction: column;
+    }
+
+    .uvod img {
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .uvod h1 {
+        font-size: 60px;
+    }
+}
