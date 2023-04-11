@@ -1,40 +1,43 @@
 * {
     font-family: Ebrima;
-    background: #ccbbcc;
+    background: floralwhite;
 }
 
 .nadpis {
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    height: 100px;
     width: 100%;
-    border: #A69CAC 5px solid;
+    border: navajowhite 5px solid;
 }
 
 .interview p {
     margin: 2rem 0;
     padding: 1rem;
     border-radius: 10px;
-    background: #A69CAC;
+    background: navajowhite;
     text-align: center;
 }
 
-.interview,
-.questions {
-    margin-left: 23rem;
-    width: 50%;
+.all {
+    width: 70%;
+    margin: 0 15%;
 }
 
 .questions p {
-    padding-bottom: 10px;
-    border-bottom: #A69CAC 5px solid;
+    padding-bottom: 15px;
+    border-bottom: navajowhite 5px solid;
 }
 
-.questions h2 {
+.questions .otazka {
     padding-top: 10px;
+    font-size: x-large;
 }
 
-.nazev h1 {
-
+.image img {
+    height: auto;
+    width: 70%;
+    display: flex;
+    margin: 0 15%;
 }
