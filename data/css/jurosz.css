@@ -41,3 +41,28 @@ body{
 #interview p{
     padding-bottom: 10px;
 }
+img{
+    height: 250px;
+    width: auto;
+    padding-right: 1rem;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .uvod {
+        height: 100px;
+    }
+    .uvod h1 {
+        font-size: 24px;
+    }
+    #interview {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-width: 2px;
+    }
+    #interview h2 {
+        padding: 1rem 0 5px 0;
+    }
+}
