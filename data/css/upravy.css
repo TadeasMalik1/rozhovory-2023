@@ -20,14 +20,7 @@ header h1 {
 }
 
 /* Styly pro kontejner s rozhovorem */
-.container {
-    max-width: 800px;
-    margin: 2rem auto;
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+
 
 .container h2 {
     font-size: 1.5rem;
@@ -64,4 +57,26 @@ body {
 
 h1{
     text-align: center;
+}
+
+img{
+    max-width: 300px;
+
+}
+
+/* Responzivní styly */
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+
+    .container h2 {
+        font-size: 1.25rem;
+    }
+
+    .container p {
+        font-size: 0.9rem;
+    }
 }
