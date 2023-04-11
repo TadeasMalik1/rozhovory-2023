@@ -1,6 +1,5 @@
 
 
-/* Style for the body element */
 body {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@ body {
     background-color: #f2f2f2;
 }
 
-/* Style for the interview container */
+
 .rozhovor {
     max-width: 800px;
     margin: 0 auto;
@@ -20,7 +19,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the interview title */
+
 h1 {
     font-size: 32px;
     text-align: center;
@@ -29,7 +28,7 @@ h1 {
     text-shadow: 1px 1px #fff;
 }
 
-/* Style for the introduction paragraph */
+
 .introduction {
     font-style: italic;
     margin-bottom: 30px;

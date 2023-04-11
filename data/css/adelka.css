@@ -1,0 +1,67 @@
+:root{
+    --otazka: #fffafa;
+    --odpoved: 	#bc8f8f;
+    --nadpis: #985459;
+    --bg-otazka: #8b0000;
+    --bg-odpoved: #ffc0cb;
+
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 140vh;
+    margin: auto;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.nadpis{
+    text-align: center;
+    color: var(--nadpis);
+
+
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 50%;
+    width: 50%;
+}
+
+/*rozhovor*/
+
+
+#prvni{
+    margin-top: 2rem;
+}
+.otazka{
+    margin: 2.5rem 0;
+    color: var(--otazka);
+    background-color: var(--bg-otazka);
+    font-size: x-large;
+}
+
+
+
+.odpoved{
+    margin: 2.5rem 0;
+    color: var(--odpoved);
+    background-color: var(--bg-odpoved);
+    padding-left:25px;
+
+}
