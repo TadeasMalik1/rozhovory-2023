@@ -1,0 +1,43 @@
+:root{
+    --dark: #0E0B16;
+    --light: #333A56;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.uvod{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark);
+    color: white;
+    height: 200px;
+    width: 100%;
+}
+.uvod h1{
+    padding-bottom: 1rem;
+    border-bottom: var(--light) 5px solid;
+}
+#interview{
+    background: #333A56;
+    color: white;
+    margin: 1rem;
+    padding: 1rem ;
+    border: black 5px solid;
+    border-radius: 10px;
+}
+#interview h2{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 10px 0;
+    border-top: var(--dark) 3px solid;
+}
+#interview p{
+    padding-bottom: 10px;
+}
