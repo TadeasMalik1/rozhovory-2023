@@ -30,8 +30,9 @@
     border-bottom: navajowhite 5px solid;
 }
 
-.questions h2 {
+.questions .otazka {
     padding-top: 10px;
+    font-size: x-large;
 }
 
 .image img {
