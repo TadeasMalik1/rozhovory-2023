@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,100&family=PT+Sans+Narrow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Asap:ital",sans-serif;
+    color: var(--dark-color);
+}
+
+:root {
+    --light-color: #ccfff8;
+    --dark-color: #626e6c;
+}
+
+body {
+    background-color: var(--light-color);
+    max-width: 85vw;
+    margin: auto;
+}
+
+.H1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+}
+
+.popis  {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.otazka {
+    font-size: 1.5rem;
+}
+
+.topic {
+    padding: 0.5rem 1rem;
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.odpoved {
+    font-size: 1rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.otazka {
+    display: flex;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.topics {
+    width: 70%;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 80px;
+}
