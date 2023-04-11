@@ -96,6 +96,23 @@
     font-weight: 700;
     margin-bottom: 2rem;
     text-decoration: underline;
+    text-align: center;
+}
+.page .content .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.page .content h2.comment {
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    margin: 2rem 0;
+    width: 80%;
 }
 .page .content p {
     font-size: 1.5em;
@@ -105,9 +122,13 @@
 @media screen and (max-width: 768px) {
     .page .content h1 {
         font-size: 3em;
-        text-align: center;
     }
     .page .content p {
         font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .page .content h2.comment {
+        font-size: 1.5em;
     }
 }
