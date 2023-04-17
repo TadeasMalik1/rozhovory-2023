@@ -131,4 +131,17 @@
     .page .content h2.comment {
         font-size: 1.5em;
     }
+    .page .content h1 {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 400px) {
+    .page .content .bottom {
+        display: none;
+    }
+}
+@media screen and (max-height: 800px) {
+    .page .content .bottom {
+        display: none;
+    }
 }
