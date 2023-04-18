@@ -1,5 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
+    scroll-behavior: smooth;
+}
+
+.rozhovor {
+
+}
+
+.sekce {
+    margin: 15vh 25vw 0 25vw;
+    padding: 2vh 0 2vh 0;
+}
+
+.sekce p {
+    font-size: 25px;
+}
+
+.nadpis {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.odpoved {
+    font-size: 25px;
+    padding: 12px 0 12px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+#otazky {
+    margin: 0 20vw 0 20vw;
+    padding: 2vh 0 2vh 0;
+}
+
+#uvod {
+    padding-bottom: 28px;
+    font-size: 18px;
+}
+
+#fotka {
+    text-align: center;
+}
+
+
+
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 18px;
+
+}
+
+a {
+    padding: 0 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: #444444;
+}
+
+body {
+    background-color: darkgray;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px 20px 50px;
+    background-color: lightskyblue;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+li {
+    margin-left: 25px;
 }
