@@ -1,0 +1,87 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: chocolate;
+}
+
+.rozhovor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.nadpis {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.popis {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.otazky {
+    margin-bottom: 20px;
+}
+
+
+.tema {
+    margin-bottom: 20px;
+}
+
+
+.otazka {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.odpoved {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.obrazek {
+    background-image: url(../img/clem-onojeghuo-HpEDSZukJqk-unsplash.jpg);
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+}
+
+@media(max-width: 768px){
+
+    .rozhovor {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+
+    .nadpis {
+        font-size: 12px;
+    }
+
+
+    .popis {
+        font-size: 12px;
+    }
+
+
+    .otazky {
+        font-size: 16px;
+    }
+
+    .odpoved {
+        font-size: 12px;
+    }  }
