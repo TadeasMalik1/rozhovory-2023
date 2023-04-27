@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,200&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: lightpink;
+    max-width: 1000px;
+    margin: 1 auto;
+    padding: 1rem;
+}
+.nadpis {
+    text-align:left;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.popis {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+}
+.otazky {
+    margin-top: 2rem;
+}
+.tema {
+    margin-bottom: 2rem;
+}
+.otazka {
+    font-size: 1.5rem;
+}
+.odpoved {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
