@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Segoe UI", sans-serif;
 }
+
 body {
     background-color: #cccccc;
     max-width: 85vw;
@@ -32,6 +33,7 @@ body {
     margin-top: 0.3rem;
     margin-bottom: 0.8rem;
 }
+
 .questions {
     display: flex;
     margin-top: 1.5rem;
@@ -44,5 +46,22 @@ body {
 }
 
 img {
-    height: 40rem;
+    display: flex;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 3%;
+    top: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    #questions {
+        margin: 0.25rem;
+        padding: 0.25rem;
+        border-width: 2px;
+    }
+
+    img {
+        display: none;
+    }
 }
