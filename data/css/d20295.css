@@ -1,0 +1,55 @@
+#container {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+body {
+    background-color: #B6CB9E;
+}
+
+h1 {
+    text-align: center;
+    background-color: #81667A;
+    border-radius: 2rem;
+}
+
+.about{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    background-color: #1B9AAA;
+    border-radius: 2rem;
+}
+
+.questions {
+    text-align: center;
+}
+
+.answers {
+    padding-bottom: 2rem;
+}
+
+.img {
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    img{
+        width:25% ;
+        height:25%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    img{
+        width:100% ;
+        height:100%;
+    }
+}

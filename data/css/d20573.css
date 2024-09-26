@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #cccccc;
+    max-width: 85vw;
+    margin: auto;
+}
+
+.heading-1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+    font-family: "Agency FB";
+}
+
+.description {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.question {
+    font-size: 1.3rem;
+}
+
+.answer {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.questions {
+    display: flex;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.topics {
+    width: 70%;
+}
+
+img {
+    display: flex;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 3%;
+    top: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    #questions {
+        margin: 0.25rem;
+        padding: 0.25rem;
+        border-width: 2px;
+    }
+
+    img {
+        display: none;
+    }
+}

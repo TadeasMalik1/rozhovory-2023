@@ -1,0 +1,77 @@
+
+body, figure, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica , sans-serif;
+    background-color: #233142;
+}
+
+.rozhovor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nadpis {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ff9a3c;
+}
+
+.popis {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.otazka {
+    margin-bottom: 10px;
+
+}
+
+.otazka h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff9a3c;
+}
+
+.odpoved {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.tema {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .rozhovor {
+        padding: 10px;
+    }
+
+    .nadpis {
+        font-size: 25px;
+    }
+
+    .popis {
+        font-size: 15px;
+    }
+
+    .otazka h2 {
+        font-size: 20px;
+    }
+
+    .odpoved {
+        font-size: 15px;
+    }
+}
+    .obrazek {
+        width: 100%;
+        height: auto;
+    }

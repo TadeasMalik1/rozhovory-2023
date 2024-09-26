@@ -1,0 +1,43 @@
+* {
+    font-family: Ebrima;
+    background: floralwhite;
+}
+
+.nadpis {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: navajowhite 5px solid;
+}
+
+.interview p {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    background: navajowhite;
+    text-align: center;
+}
+
+.all {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.questions p {
+    padding-bottom: 15px;
+    border-bottom: navajowhite 5px solid;
+}
+
+.questions .otazka {
+    padding-top: 10px;
+    font-size: x-large;
+}
+
+.image img {
+    height: auto;
+    width: 70%;
+    display: flex;
+    margin: 0 15%;
+}
